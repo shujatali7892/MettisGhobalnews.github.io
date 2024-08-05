@@ -1218,4 +1218,35 @@ h6 a
   .navbar-nav  .dropdown:hover .dropdown-menu{
     display: block !important; 
   }
+ .table-tabs td{
+  padding: .1rem !important;
+  font-weight: 500 !important;
+ }
+ .table-tabs  table{
+  border: 1px solid var(--mg-shahdow-color);
+ }
+
+ .chrts-tabs ul{
+  background-color: var(--mg-subbg);
+  justify-content: space-evenly;
+  display: flex;
+  
+}
  
+.chrts-tabs .nav-link{
+  background-color: var(--mg-hover-color) !important;
+  color: var(--nav-color);
+  border-bottom: 2px solid transparent;
+  padding:3px 5px;
+  font-size: .8rem;
+  border-radius: 0px; 
+}
+ 
+.chrts-tabs .nav-pills .nav-link:hover {
+  color: var(--mg-secondry);
+  border-bottom: 2px solid var(--mg-secondry);
+}
+.chrts-tabs .nav-pills .nav-link.active, .chrts-tabs .nav-pills .show>.nav-link {
+  color: var(--mg-secondry);
+  border-bottom: 2px solid var(--mg-secondry);
+}
