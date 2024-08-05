@@ -1,0 +1,65 @@
+@media (min-width: 1421px)  {
+    
+
+}
+@media (min-width: 1024px) and (max-width: 1420px){ 
+    }
+
+        @media (min-width: 992px)  {
+            .urdu-btn{
+                font-size: 2.5rem !important; 
+            }  
+        
+            .bar-menu-icons .dropdown-menu {
+              width: 72vw;
+            } 
+            .bar-menu-icons .dropdown-menu[data-bs-popper] { 
+                right: -100% !important;
+                left: auto !important; 
+              }
+          }
+          @media  (max-width: 1024px) {
+            .copyright { 
+              text-align: center;
+          }
+          footer .social-links ul { 
+            justify-content: center;
+        }
+            .left-navbar .navbar-nav{
+              flex-direction: row !important;
+                 }
+                
+          }
+          @media  (max-width: 991px)  and (min-width:680px){
+         
+            .bar-menu-icons .dropdown-menu {
+                width: 72vw;
+              } 
+              .bar-menu-icons .dropdown-menu[data-bs-popper] { 
+                  right: 0% !important;
+                  left: auto !important; 
+                }
+
+        }
+        @media  (max-width: 679px) {
+          .subrundata-div p  {
+          font-size: .7rem;
+           }
+            .bar-menu-icons .dropdown-menu {
+                width:90vw;
+                background-color: var(--beige-600, #dcd5c5);
+              } 
+              .bar-menu-icons .dropdown-menu[data-bs-popper] { 
+                  right: -24% !important;
+                  left: auto !important; 
+                }
+                .left-navbar .navbar-nav{
+                  flex-direction: row !important;
+                     }
+
+        }
+        @media  (max-width: 375px) {
+          header .navbar-nav .nav-item .nav-link { 
+            font-size: 12px;
+          }
+        }
