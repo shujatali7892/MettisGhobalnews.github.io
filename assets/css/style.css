@@ -8,7 +8,8 @@
 
 :root {
     /* --mg-color: #ec9f34; */
-    --mg-color:  #b55b22;
+    /* --mg-color:  #b55b22; */
+    --mg-color: #EC9F34;
     /* --mg-secondry: #202020;  */
     --mg-secondry: #161e2e;
     --mg-white: #ddd;
@@ -361,8 +362,12 @@ border-bottom: 2px solid var(--mg-color);
 }
 .table-tabs ul{
   background-color: var(--mg-subbg);
-  justify-content: space-between;
+  justify-content:center;
   display: flex;
+  border-top: 1px solid var(--mg-shahdow-color);
+  border-left: 1px solid var(--mg-shahdow-color);
+  border-right: 1px solid var(--mg-shahdow-color);
+  flex-wrap: inherit;
   
 }
  
@@ -371,17 +376,18 @@ border-bottom: 2px solid var(--mg-color);
   color: var(--nav-color);
   border-bottom: 2px solid transparent;
   padding:3px 5px;
-  font-size: .8rem;
+  font-size: 1rem;
   border-radius: 0px; 
+  font-weight: 600;
 }
  
 .table-tabs .nav-pills .nav-link:hover {
-  color: var(--mg-secondry);
-  border-bottom: 2px solid var(--mg-secondry);
+  
+  border-bottom: 2px solid var(--mg-color);
 }
 .table-tabs .nav-pills .nav-link.active, .table-tabs .nav-pills .show>.nav-link {
-  color: var(--mg-secondry);
-  border-bottom: 2px solid var(--mg-secondry);
+  color: var(--mg-color);
+ 
 }
 .brand-nam h5{
   color: var(--nav-color);
@@ -395,8 +401,8 @@ nav .container{
 }
 .table-tabs thead th{
  color: var(--nav-color) !important; 
- font-weight: 400;
- font-size: .9rem;
+ /* font-weight: 400;
+ font-size: .9rem; */
  padding-top: 4px;
  padding-bottom: 4px;
 }
@@ -853,18 +859,23 @@ border-radius: 0px !important;
    }
   footer .container-fluid {
     background-color: var(--mg-subbg);
-    padding: 15px 10px;
+    padding: 10px;
+  }
+  footer  .page-link  ul{
+    display: flex;
+    justify-content: space-evenly;
   }
   footer  .page-link ul li a{
     color: var(--mg-secondry);
-   font-size: .7rem;
+    
   }
-  footer  .page-link ul li a:hover{
-    font-weight: 600;
+  footer  .page-link ul li a:hover{ 
+    color: var(--mg-color);
+    border-bottom: 1px solid var(--mg-color);
   }
   .copyright{
     color: var(--mg-secondry);
-    font-size: .7rem;
+    
   }
    
   footer .social-links{
@@ -1249,4 +1260,70 @@ h6 a
 .chrts-tabs .nav-pills .nav-link.active, .chrts-tabs .nav-pills .show>.nav-link {
   color: var(--mg-secondry);
   border-bottom: 2px solid var(--mg-secondry);
+}
+.five-thinks ul{
+  list-style: none;
+  padding-left: 0px !important;
+}
+.five-thinks li{
+  padding: 5px;
+  border-bottom: 1px solid var(--mg-shahdow-color);
+}
+.five-thinks li a{
+  color: var(--nav-color);
+}
+.five-thinks li a:hover{
+  color: var(--mg-color);
+  border-color: var(--mg-color);
+}
+.btn-mg{
+  background-color: var(--mg-color);
+  color: var(--mg-white);
+  border: 1px solid var(--mg-color);
+}
+.btn-mg:hover{
+color: var(--mg-color);
+background-color: transparent;
+  border: 1px solid var(--mg-color);
+}
+.MG-Opinionnews .subnews-title h5 a{
+color: var(--nav-color);
+}
+.marketPoll .progress,  .marketPoll .progress-stacked { 
+  height: 40px;
+}
+.marketPoll .progress-bar{
+background-color: var(--mg-color);
+font-weight: 700;
+font-size: 1rem;
+ 
+}
+.latest-title h1{
+  color: var(--mg-color);
+}
+.rates-tables h4{
+color: var(--mg-color);
+}
+.nextprevaction{
+  display: flex;
+  justify-content: center;
+}
+.nextprevaction span{
+  color: var(--nav-color);
+  cursor: pointer;
+}
+.nextprevaction span:hover{
+  color: var(--mg-color);
+}
+.nextprevaction .active {
+  color: var(--mg-color) !important;
+  border: 1px solid var(--mg-color) !important;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1;
+}
+.highcharts-figure{
+  border: 1px solid var(--mg-shahdow-color) !important;
 }

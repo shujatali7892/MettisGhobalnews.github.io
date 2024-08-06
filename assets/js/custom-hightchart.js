@@ -364,6 +364,7 @@
     });
 })();
 
+ 
 // ------Policy Rate area chart
  
 Highcharts.chart('PolicyRate', {
@@ -421,9 +422,7 @@ Highcharts.chart('PolicyRate', {
         ]
     }]
 });
-
-
-
+ 
 // --------Forexchrt Column with negative values chart
 Highcharts.chart('Forexchrt', {
     chart: {
@@ -531,9 +530,7 @@ Highcharts.chart('Forexchrt', {
         }]
     });
 })();
-
-
-
+ 
 // --------Forexchrt USDPKR with negative values chart
  
 
@@ -591,3 +588,12 @@ Highcharts.chart('USDPKR', {
     } ]
 });
 
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
