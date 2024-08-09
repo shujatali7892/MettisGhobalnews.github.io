@@ -92,3 +92,4 @@ monthSelect.onchange = function() {
 daySelect.onchange = function() {
     previousDay = daySelect.value;
 }
+
